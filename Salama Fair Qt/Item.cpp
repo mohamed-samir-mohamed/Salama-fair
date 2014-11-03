@@ -5,7 +5,7 @@ Item::Item(): mPrice(0.0), mTypeName(""), mProviderName(""), mID(-1)
 
 }
 
-Item::Item(long long fID, string fTypeName, string fCompanyName, double fCashPrice) :
+Item::Item(wstring fID, wstring fTypeName, wstring fCompanyName, double fCashPrice) :
     mPrice(fCashPrice), 
     mTypeName(fTypeName),
     mProviderName(fCompanyName),
@@ -14,7 +14,7 @@ Item::Item(long long fID, string fTypeName, string fCompanyName, double fCashPri
 
 }
 
-string Item::getTypeName() const
+wstring Item::getTypeName() const
 {
     return mTypeName;
 }
@@ -24,12 +24,12 @@ double Item::getPrice() const
     return mPrice;
 }
 
-string Item::getCompanyName() const
+wstring Item::getCompanyName() const
 {
     return mProviderName;
 }
 
-long long Item::getID() const
+wstring Item::getID() const
 {
     return mID;
 }

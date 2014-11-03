@@ -1,10 +1,9 @@
-﻿Build started 10/30/2014 12:50:37 AM.
-     1>Project "C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Salama Fair Qt.vcxproj" on node 2 (Clean target(s)).
-     1>_PrepareForClean:
-         Deleting file "Debug\Salama Fair Qt.lastbuildstate".
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppClean.targets(75,5): warning : Access to the path 'C:\USERS\MUHAMMAD SAMIR\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\SALAMA FAIR QT\WIN32\DEBUG\SALAMA FAIR QT.EXE' is denied.
-     1>Done Building Project "C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Salama Fair Qt.vcxproj" (Clean target(s)).
+﻿Build started 11/3/2014 12:18:00 AM.
+     1>Project "C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Salama Fair Qt.vcxproj" on node 2 (CustomBuild target(s)).
+     1>CustomBuild:
+         Uic'ing form files\DataEntryWidget.ui...
+     1>Done Building Project "C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Salama Fair Qt.vcxproj" (CustomBuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.03
+Time Elapsed 00:00:01.06

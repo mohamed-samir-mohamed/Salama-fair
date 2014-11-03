@@ -9,12 +9,12 @@ class Item
 public:
     Item();
 
-    Item(long long fID, string fTypeName, string fCompanyName, double fCashPrice);
+    Item(wstring fID, wstring fTypeName, wstring fCompanyName, double fCashPrice);
 
-    string getTypeName() const;
+    wstring getTypeName() const;
     double getPrice() const;
-    string getCompanyName() const;
-    long long getID() const;
+    wstring getCompanyName() const;
+    wstring getID() const;
 
     void setID(long long fID);
     void setPrice(double fPrice);
@@ -22,9 +22,9 @@ public:
     void setTypeName(string fTypeName);
 
 private:
-    long long mID;
-    string mTypeName;
-    string mProviderName;
+    wstring mID;
+    wstring mTypeName;
+    wstring mProviderName;
     double mPrice;
 };
 #endif
