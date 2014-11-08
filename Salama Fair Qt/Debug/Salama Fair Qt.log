@@ -1,9 +1,75 @@
-﻿Build started 11/3/2014 12:18:00 AM.
-     1>Project "C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Salama Fair Qt.vcxproj" on node 2 (CustomBuild target(s)).
-     1>CustomBuild:
-         Uic'ing form files\DataEntryWidget.ui...
-     1>Done Building Project "C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Salama Fair Qt.vcxproj" (CustomBuild target(s)).
+﻿Build started 11/8/2014 3:23:43 PM.
+     1>Project "C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Salama Fair Qt.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtCore /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtGui /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtSql /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DataEntryWidget.cpp
+         DataEntryWidget.cpp
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0645' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0639' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0644' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0648' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0627' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u062A' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0641' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0642' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u062F' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0629' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0646' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0636' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0643' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u062E' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0631' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(21): warning C4566: character represented by universal-character-name '\u0633' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0645' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0639' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0644' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0648' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0627' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u062A' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0641' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0642' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u062F' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0629' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0646' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0636' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0643' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u062E' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u0633' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(27): warning C4566: character represented by universal-character-name '\u062C' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0645' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0639' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0644' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0648' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0627' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u062A' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0641' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0642' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u062F' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0629' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0646' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0636' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0643' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u062E' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0633' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(33): warning C4566: character represented by universal-character-name '\u0631' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0645' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0639' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0644' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0648' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0627' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u062A' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0641' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0642' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u062F' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0629' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0646' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0636' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0643' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u062E' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0633' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u0631' cannot be represented in the current code page (1252)
+     1>DataEntryWidget.cpp(39): warning C4566: character represented by universal-character-name '\u062C' cannot be represented in the current code page (1252)
+     1>Done Building Project "C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Salama Fair Qt.vcxproj" (ClCompile target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.06
+Time Elapsed 00:00:02.98

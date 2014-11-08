@@ -1,6 +1,6 @@
 #include "Item.h"
 
-Item::Item(): mPrice(0.0), mTypeName(""), mProviderName(""), mID(-1)
+Item::Item(): mPrice(0.0), mTypeName(L""), mProviderName(L""), mID(L"-1")
 {
 
 }
@@ -44,12 +44,12 @@ void Item::setPrice(double fCashPrice)
     mPrice = fCashPrice;
 }
 
-void Item::setProviderName(string fName)
+void Item::setProviderName(wstring fName)
 {
     mProviderName = fName;
 }
 
-void Item::setTypeName(string fTypeName)
+void Item::setTypeName(wstring fTypeName)
 {
     mTypeName = fTypeName;
 }

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainForm</class>
+ <widget class="QWidget" name="MainForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>481</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>الصفحة الرئيسية</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>اختار العملية :</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="dataEntryButton">
+     <property name="text">
+      <string>ادخال بيانات</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="inqueryButton">
+     <property name="text">
+      <string>استعلام او تعديل بيانات</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="billButton">
+     <property name="text">
+      <string>عمل فاتورة</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <action name="actionDataEntry">
+   <property name="text">
+    <string>dataEntry</string>
+   </property>
+  </action>
+  <action name="actionCreateBill">
+   <property name="text">
+    <string>createBill</string>
+   </property>
+  </action>
+  <action name="actionInqueryAndEdit">
+   <property name="text">
+    <string>inqueryAndEdit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>dataEntryButton</sender>
+   <signal>clicked()</signal>
+   <receiver>actionDataEntry</receiver>
+   <slot>trigger()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>billButton</sender>
+   <signal>clicked()</signal>
+   <receiver>actionCreateBill</receiver>
+   <slot>trigger()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inqueryButton</sender>
+   <signal>clicked()</signal>
+   <receiver>actionInqueryAndEdit</receiver>
+   <slot>trigger()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

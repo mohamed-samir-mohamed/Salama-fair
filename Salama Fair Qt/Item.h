@@ -18,8 +18,8 @@ public:
 
     void setID(long long fID);
     void setPrice(double fPrice);
-    void setProviderName(string fName);
-    void setTypeName(string fTypeName);
+    void setProviderName(wstring fName);
+    void setTypeName(wstring fTypeName);
 
 private:
     wstring mID;

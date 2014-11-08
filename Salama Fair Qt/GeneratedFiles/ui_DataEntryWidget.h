@@ -18,6 +18,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QTextEdit>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -26,7 +27,6 @@ class Ui_DataEntryWidget
 {
 public:
     QGridLayout *gridLayout;
-    QLineEdit *productNameLineEdit;
     QLineEdit *IDLineEdit;
     QPushButton *exitButton;
     QPushButton *enterButton;
@@ -36,21 +36,18 @@ public:
     QLineEdit *priceLineEdit;
     QLabel *label_3;
     QLabel *label_4;
+    QTextEdit *productNameLineEdit;
 
     void setupUi(QWidget *DataEntryWidget)
     {
         if (DataEntryWidget->objectName().isEmpty())
             DataEntryWidget->setObjectName(QStringLiteral("DataEntryWidget"));
-        DataEntryWidget->resize(595, 460);
+        DataEntryWidget->resize(749, 460);
         gridLayout = new QGridLayout(DataEntryWidget);
         gridLayout->setObjectName(QStringLiteral("gridLayout"));
-        productNameLineEdit = new QLineEdit(DataEntryWidget);
-        productNameLineEdit->setObjectName(QStringLiteral("productNameLineEdit"));
-
-        gridLayout->addWidget(productNameLineEdit, 1, 3, 1, 1);
-
         IDLineEdit = new QLineEdit(DataEntryWidget);
         IDLineEdit->setObjectName(QStringLiteral("IDLineEdit"));
+        IDLineEdit->setMinimumSize(QSize(100, 0));
 
         gridLayout->addWidget(IDLineEdit, 1, 5, 1, 1);
 
@@ -108,6 +105,12 @@ public:
 
         gridLayout->addWidget(label_4, 2, 4, 1, 1);
 
+        productNameLineEdit = new QTextEdit(DataEntryWidget);
+        productNameLineEdit->setObjectName(QStringLiteral("productNameLineEdit"));
+        productNameLineEdit->setMaximumSize(QSize(16777215, 50));
+
+        gridLayout->addWidget(productNameLineEdit, 1, 3, 1, 1);
+
 
         retranslateUi(DataEntryWidget);
 
@@ -119,7 +122,7 @@ public:
         DataEntryWidget->setWindowTitle(QApplication::translate("DataEntryWidget", "\330\265\331\201\330\255\330\251 \330\247\330\257\330\256\330\247\331\204 \330\247\331\204\330\250\331\212\330\247\331\206\330\247\330\252", 0));
         exitButton->setText(QApplication::translate("DataEntryWidget", "\330\247\331\204\330\256\330\261\331\210\330\254", 0));
         enterButton->setText(QApplication::translate("DataEntryWidget", "\330\247\330\257\330\256\331\204 \330\247\331\204\330\250\331\212\330\247\331\206\330\247\330\252", 0));
-        label->setText(QApplication::translate("DataEntryWidget", "\330\247\331\204\330\261\331\202\331\205 \330\247\331\204\331\205\330\263\331\204\330\263\331\204", 0));
+        label->setText(QApplication::translate("DataEntryWidget", "\330\247\331\204\331\203\331\210\330\257", 0));
         label_2->setText(QApplication::translate("DataEntryWidget", "\330\247\330\263\331\205 \330\247\331\204\331\205\331\206\330\252\330\254", 0));
         label_3->setText(QApplication::translate("DataEntryWidget", "\330\247\330\263\331\205 \330\247\331\204\331\205\331\210\330\261\330\257", 0));
         label_4->setText(QApplication::translate("DataEntryWidget", "\330\247\331\204\330\263\330\271\330\261 \330\250\330\247\331\204\330\254\331\206\331\212\330\251", 0));
