@@ -1,14 +1,35 @@
-C:\USERS\MUHAMMAD SAMIR\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\SALAMAFAIRQT.OBJ
-C:\USERS\MUHAMMAD SAMIR\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\MAIN.OBJ
-C:\USERS\MUHAMMAD SAMIR\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\MOC_SALAMAFAIRQT.OBJ
-C:\USERS\MUHAMMAD SAMIR\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\VC110.PDB
-C:\USERS\MUHAMMAD SAMIR\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\SALAMA FAIR QT\WIN32\DEBUG\SALAMA FAIR QT.ILK
-C:\USERS\MUHAMMAD SAMIR\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\SALAMA FAIR QT\WIN32\DEBUG\SALAMA FAIR QT.EXE
-C:\USERS\MUHAMMAD SAMIR\DOCUMENTS\VISUAL STUDIO 2012\PROJECTS\SALAMA FAIR QT\WIN32\DEBUG\SALAMA FAIR QT.PDB
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\MAIN.OBJ
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\DATAENTRYWIDGET.OBJ
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\ITEM.OBJ
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\MOC_DATAENTRYWIDGET.OBJ
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\VC110.PDB
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\MOC_MAINFORM.OBJ
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\MAINFORM.OBJ
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\DATAENTRYDIALOG.OBJ
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\MOC_DATAENTRYDIALOG.OBJ
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\BILL.OBJ
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\INQEURYDIALOG.OBJ
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\DEBUG\MOC_INQUERYDIALOG.OBJ
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\GENERATEDFILES\UI_DATAENTRYDIALOG.H
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\GENERATEDFILES\UI_MAINFORM.H
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\GENERATEDFILES\DEBUG\MOC_DATAENTRYDIALOG.CPP
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\GENERATEDFILES\UI_INQUERYDIALOG.H
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\GENERATEDFILES\DEBUG\MOC_MAINFORM.CPP
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\SALAMA FAIR QT\GENERATEDFILES\DEBUG\MOC_INQUERYDIALOG.CPP
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\WIN32\DEBUG\SALAMA FAIR QT.ILK
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\WIN32\DEBUG\SALAMA FAIR QT.EXE
+C:\USERS\MUHAMMAD SAMIR\DESKTOP\SALAMA FAIR QT\WIN32\DEBUG\SALAMA FAIR QT.PDB
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\Bill.obj
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\DataEntryDialog.obj
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\DataEntryWidget.obj
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\InqeuryDialog.obj
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\Item.obj
 C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\main.obj
-C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\moc_salamafairqt.obj
-C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\qrc_salamafairqt.obj
-C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\salamafairqt.obj
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\MainForm.obj
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\moc_DataEntryDialog.obj
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\moc_DataEntryWidget.obj
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\moc_InqueryDialog.obj
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\moc_MainForm.obj
 C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\cl.command.1.tlog
 C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\CL.read.1.tlog
 C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\CL.write.1.tlog
@@ -19,12 +40,24 @@ C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link-cvtres.
 C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link-cvtres.write.1.tlog
 C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link-rc.read.1.tlog
 C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link-rc.write.1.tlog
-C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5736-cvtres.read.1.tlog
-C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5736-cvtres.write.1.tlog
-C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5736-rc.read.1.tlog
-C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5736-rc.write.1.tlog
-C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5736.read.1.tlog
-C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5736.write.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.4632-cvtres.read.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.4632-cvtres.write.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.4632-rc.read.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.4632-rc.write.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.4632.read.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.4632.write.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5688-cvtres.read.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5688-cvtres.write.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5688-rc.read.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5688-rc.write.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5688.read.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.5688.write.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.6152-cvtres.read.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.6152-cvtres.write.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.6152-rc.read.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.6152-rc.write.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.6152.read.1.tlog
+C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.6152.write.1.tlog
 C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.command.1.tlog
 C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.read.1.tlog
 C:\Users\Muhammad Samir\Desktop\Salama Fair Qt\Salama Fair Qt\Debug\link.write.1.tlog

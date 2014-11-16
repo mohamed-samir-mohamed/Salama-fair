@@ -4,6 +4,8 @@
 #include <string>
 #include <QCloseEvent>
 #include "Item.h"
+#include "DataManager.h"
+
 
 DataEntryDialog::DataEntryDialog(QWidget* parent , Qt::ItemFlags flags)
 {
@@ -51,6 +53,8 @@ void DataEntryDialog::on_actionEnter_triggered()
 
     mItems.push_back(item);
 
+    DataManager::getInstance()->addItem(item);
+
     //message box
      QMessageBox msgBox(QString(QString::fromStdWString(L"عملية صحيحة")), QString(QString::fromStdWString(L"تم ")),QMessageBox::Warning,QMessageBox::Ok,0,0);
      msgBox.exec();
@@ -62,7 +66,7 @@ void DataEntryDialog::on_actionEnter_triggered()
     mUi.priceLineEdit->clear();
 }
 
-void DataEntryDialog::on_actionExit_triggered()
+void DataEntryDialog::on_actionBack_triggered()
 {
     mItems.clear();
     close();

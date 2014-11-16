@@ -62,6 +62,18 @@
     <ClCompile Include="DataEntryDialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="InqeuryDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InqueryDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InqueryDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bill.h">
@@ -73,11 +85,14 @@
     <ClInclude Include="GeneratedFiles\ui_MainForm.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="GeneratedFiles\ui_InqueryFrom.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_DataEntryDialog.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InqueryDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -87,13 +102,16 @@
     <CustomBuild Include="MainForm.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="InqueryFrom.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="DataEntryDialog.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
     <CustomBuild Include="form files\DataEntryDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InqueryDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InqueryDialog.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
   </ItemGroup>

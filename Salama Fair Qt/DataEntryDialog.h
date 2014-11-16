@@ -22,7 +22,7 @@ protected:
 
 private slots:
     void on_actionEnter_triggered();
-    void on_actionExit_triggered();
+    void on_actionBack_triggered();
 
 private:
 

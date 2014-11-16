@@ -5,6 +5,7 @@
 #include <memory>
 
 class DataEntryDialog;
+class InqueryDialog;
 
 class MainForm: public QWidget
 {
@@ -20,6 +21,7 @@ private slots:
 private:
     Ui::MainForm mUi;
     std::shared_ptr<DataEntryDialog> mDataEntryDialog;
+    std::shared_ptr<InqueryDialog> mInqueryDialog;
 
 };
 #endif// !MAIN_FORM
