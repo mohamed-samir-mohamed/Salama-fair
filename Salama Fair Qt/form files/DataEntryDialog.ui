@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>749</width>
+    <width>513</width>
     <height>460</height>
    </rect>
   </property>
@@ -14,13 +14,50 @@
    <string>صفحة ادخال البيانات</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="1" column="5">
+   <item row="1" column="6">
     <widget class="QLineEdit" name="IDLineEdit">
      <property name="minimumSize">
       <size>
        <width>100</width>
        <height>0</height>
       </size>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="6">
+    <widget class="QLineEdit" name="providerNameLineEdit"/>
+   </item>
+   <item row="1" column="7">
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>الكود</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="7">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>اسم المورد</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="5">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>السعر بالجنية</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="5">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>اسم المنتج</string>
      </property>
     </widget>
    </item>
@@ -40,6 +77,19 @@
      </property>
      <property name="text">
       <string>الرجوع</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" colspan="3">
+    <widget class="QLineEdit" name="priceLineEdit"/>
+   </item>
+   <item row="1" column="2" colspan="3">
+    <widget class="QTextEdit" name="productNameLineEdit">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
      </property>
     </widget>
    </item>
@@ -65,56 +115,6 @@
      </property>
      <property name="text">
       <string>ادخل البيانات</string>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="6">
-    <widget class="QLabel" name="label">
-     <property name="maximumSize">
-      <size>
-       <width>16777215</width>
-       <height>50</height>
-      </size>
-     </property>
-     <property name="text">
-      <string>الكود</string>
-     </property>
-    </widget>
-   </item>
-   <item row="2" column="5">
-    <widget class="QLineEdit" name="providerNameLineEdit"/>
-   </item>
-   <item row="1" column="4">
-    <widget class="QLabel" name="label_2">
-     <property name="text">
-      <string>اسم المنتج</string>
-     </property>
-    </widget>
-   </item>
-   <item row="2" column="3">
-    <widget class="QLineEdit" name="priceLineEdit"/>
-   </item>
-   <item row="2" column="6">
-    <widget class="QLabel" name="label_3">
-     <property name="text">
-      <string>اسم المورد</string>
-     </property>
-    </widget>
-   </item>
-   <item row="2" column="4">
-    <widget class="QLabel" name="label_4">
-     <property name="text">
-      <string>السعر بالجنية</string>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="3">
-    <widget class="QTextEdit" name="productNameLineEdit">
-     <property name="maximumSize">
-      <size>
-       <width>16777215</width>
-       <height>50</height>
-      </size>
      </property>
     </widget>
    </item>

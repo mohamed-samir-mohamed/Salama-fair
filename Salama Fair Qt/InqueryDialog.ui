@@ -60,6 +60,37 @@
      </layout>
     </widget>
    </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="inqueryButton">
+     <property name="text">
+      <string>استعلم</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QLineEdit" name="IDlineEdit"/>
+   </item>
+   <item row="6" column="1">
+    <widget class="QPushButton" name="editButton">
+     <property name="text">
+      <string>تعديل</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="deleteButton">
+     <property name="text">
+      <string>مسح السلعة</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QPushButton" name="backButton">
+     <property name="text">
+      <string>الرجوع</string>
+     </property>
+    </widget>
+   </item>
    <item row="1" column="3">
     <widget class="QLabel" name="label">
      <property name="maximumSize">
@@ -73,34 +104,10 @@
      </property>
     </widget>
    </item>
-   <item row="6" column="1">
-    <widget class="QPushButton" name="backButton">
-     <property name="text">
-      <string>الرجوع</string>
-     </property>
-    </widget>
-   </item>
-   <item row="2" column="3">
-    <widget class="QLineEdit" name="IDlineEdit"/>
-   </item>
-   <item row="2" column="1">
-    <widget class="QPushButton" name="inqueryButton">
-     <property name="text">
-      <string>استعلم</string>
-     </property>
-    </widget>
-   </item>
-   <item row="5" column="1">
-    <widget class="QPushButton" name="editButton">
-     <property name="text">
-      <string>تعديل</string>
-     </property>
-    </widget>
-   </item>
    <item row="4" column="1">
-    <widget class="QPushButton" name="deleteButton">
+    <widget class="QPushButton" name="editApproveButton">
      <property name="text">
-      <string>مسح السلعة</string>
+      <string>تأكيد التعديل</string>
      </property>
     </widget>
    </item>
@@ -123,6 +130,11 @@
   <action name="actionDelete">
    <property name="text">
     <string>delete</string>
+   </property>
+  </action>
+  <action name="actionApproveEdit">
+   <property name="text">
+    <string>approveEdit</string>
    </property>
   </action>
  </widget>
@@ -185,6 +197,22 @@
     <hint type="sourcelabel">
      <x>46</x>
      <y>387</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>editApproveButton</sender>
+   <signal>clicked()</signal>
+   <receiver>actionApproveEdit</receiver>
+   <slot>trigger()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>46</x>
+     <y>358</y>
     </hint>
     <hint type="destinationlabel">
      <x>-1</x>

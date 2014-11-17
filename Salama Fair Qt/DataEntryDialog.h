@@ -28,5 +28,7 @@ private:
 
     Ui::DataEntryDialog mUi;
     std::vector<std::shared_ptr<Item>> mItems;
+
+    void clearTexts();
 };
 #endif// !DATA_ENTY_WIDGET_H

@@ -16,12 +16,16 @@ private slots:
     void on_actionEdit_triggered();
     void on_actionBack_triggered();
     void on_actionDelete_triggered();
+    void on_actionApproveEdit_triggered();
 
 private:
     Ui::InqueryDialog mUi;
 
     void clearTexts();
     void enableTexts(bool fEnable = true);
+    void enableEditMode(bool fEnable = true);
+
+    bool inquery ();
 
 };
 

@@ -7,7 +7,7 @@ InqueryDialog::InqueryDialog(QWidget* parent/* = nullptr*/, Qt::ItemFlags flags 
 {
     mUi.setupUi(this);
 
-    enableTexts(false);
+    enableEditMode(false);
 }
 
 InqueryDialog::~InqueryDialog()
@@ -17,33 +17,13 @@ InqueryDialog::~InqueryDialog()
 
 void InqueryDialog::on_actionEdit_triggered()
 {
-    std::wstring id = mUi.IDlineEdit->text().toStdWString();
-    if (id == L"")
-    {
-        QMessageBox msgBox(QString(QString::fromStdWString(L"معلومات مفقودة")), QString(QString::fromStdWString(L"من فضلك ادخل كود السلعة")),QMessageBox::Warning,QMessageBox::Ok,0,0);
-        msgBox.exec();
-        return;
-    }
-
-    //enableTexts();
+    if (inquery())
+        enableEditMode(true);
 }
 
 void InqueryDialog::on_actionInquery_triggered()
 {
-    std::wstring itemID = mUi.IDlineEdit->text().toStdWString();
-    auto item = DataManager::getInstance()->getItem(itemID);
-
-    if (item == nullptr)
-    {
-        QMessageBox msgBox(QString(QString::fromStdWString(L"بيانات")), QString(QString::fromStdWString(L"لا يوجد سلعة بهذا الكود")),QMessageBox::Warning,QMessageBox::Ok,0,0);
-        msgBox.exec();
-        clearTexts();
-        return;
-    }
-
-    mUi.productNameTextEdit->setText(QString::fromStdWString(item->getTypeName()));
-    mUi.ProviderNameLineEdit->setText(QString::fromStdWString(item->getCompanyName()));
-    mUi.priceLineEdit->setText(QString::number(item->getPrice()));
+    inquery();
 }
 
 void InqueryDialog::on_actionBack_triggered()
@@ -54,6 +34,10 @@ void InqueryDialog::on_actionBack_triggered()
 
 void InqueryDialog::on_actionDelete_triggered()
 {
+    if (inquery() == false)
+        return;
+
+    /////////////////////////////////////////////////////////////////////////////////
     QMessageBox msgBox;
     msgBox.setWindowTitle(QString::fromStdWString(L"تأكيد مسح السلعة"));
     msgBox.setInformativeText(QString::fromStdWString(L"هل تريد مسح هذة السلعة ؟"));
@@ -81,4 +65,56 @@ void InqueryDialog::enableTexts(bool fEnable)
     mUi.priceLineEdit->setEnabled(fEnable);
     mUi.productNameTextEdit->setEnabled(fEnable);
     mUi.ProviderNameLineEdit->setEnabled(fEnable);
+}
+
+void InqueryDialog::enableEditMode(bool fEnable)
+{
+    mUi.editApproveButton->setHidden(!fEnable);
+    mUi.deleteButton->setEnabled(!fEnable);
+    mUi.editButton->setEnabled(!fEnable); 
+    mUi.inqueryButton->setEnabled(!fEnable);
+    mUi.IDlineEdit->setEnabled(!fEnable);
+    enableTexts(fEnable);
+}
+
+void InqueryDialog::on_actionApproveEdit_triggered()
+{
+    wstring id = mUi.IDlineEdit->text().toStdWString();
+    auto item = DataManager::getInstance()->getItem(id);
+    double price = mUi.priceLineEdit->text().toDouble();
+
+    item->setTypeName(mUi.productNameTextEdit->toPlainText().toStdWString());
+    item->setProviderName(mUi.ProviderNameLineEdit->text().toStdWString());
+    item->setPrice(price);
+
+    enableEditMode(false); 
+}
+
+bool InqueryDialog::inquery()
+{
+    std::wstring itemID = mUi.IDlineEdit->text().toStdWString();
+
+    if (itemID == L"")
+    {
+        QMessageBox msgBox(QString(QString::fromStdWString(L"بيانات")), QString(QString::fromStdWString(L"من فضلك ادخل كود السلعة")),QMessageBox::Warning,QMessageBox::Ok,0,0);
+        msgBox.exec();
+        clearTexts();
+        return false;
+
+    }
+
+    auto item = DataManager::getInstance()->getItem(itemID);
+
+    if (item == nullptr)
+    {
+        QMessageBox msgBox(QString(QString::fromStdWString(L"بيانات")), QString(QString::fromStdWString(L"لا يوجد سلعة بهذا الكود")),QMessageBox::Warning,QMessageBox::Ok,0,0);
+        msgBox.exec();
+        clearTexts();
+        return false;
+    }
+
+    mUi.productNameTextEdit->setText(QString::fromStdWString(item->getTypeName()));
+    mUi.ProviderNameLineEdit->setText(QString::fromStdWString(item->getCompanyName()));
+    mUi.priceLineEdit->setText(QString::number(item->getPrice()));
+    return true;
 }
